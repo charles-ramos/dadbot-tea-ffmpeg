@@ -8,4 +8,3 @@ WORKDIR /app
 RUN pip install -r ./requirements.txt
 RUN chmod +x ./init.sh
 ENTRYPOINT ["./init.sh"]
-#
